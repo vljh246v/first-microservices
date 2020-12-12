@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'se.magnus.microservices.core.recommendation'
+group = 'me.demo.microservices.core.recommendation'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '11'
 
