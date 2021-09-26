@@ -3,9 +3,11 @@ package me.demo.microservices.composite.product;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
+@ComponentScan("me.demo")
 public class ProductCompositeServiceApplication {
 
 	@Bean
