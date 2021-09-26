@@ -16,10 +16,7 @@ public class ServiceUtil {
 
   private String serviceAddress = null;
 
-  @Autowired
-  public ServiceUtil(
-      @Value("${server.port}") String port) {
-
+  public ServiceUtil(@Value("${server.port}") String port) {
     this.port = port;
   }
 
@@ -45,4 +42,5 @@ public class ServiceUtil {
       return "unknown IP address";
     }
   }
+
 }
